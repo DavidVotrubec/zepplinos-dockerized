@@ -20,7 +20,6 @@ ENV PATH /usr/src/app/node_modules/.bin:$PATH
 RUN touch break-cache-1
 
 # install and cache app dependencies
-RUN npm install -g webpack
-RUN npm install -g zos
+RUN npm install -g webpack zos ganache-cli
 
 ENTRYPOINT [ "zos" ]
