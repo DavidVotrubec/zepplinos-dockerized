@@ -1,0 +1,5 @@
+{
+  "network": "ganache_cli",
+  "from": "0x36671ece628101FF2b250000e5ebb913c389114b",
+  "expires": "2018-12-17T11:44:32.852Z"
+}
